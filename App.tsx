@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { Item, Filters, SortBy, ItemType, ItemShape } from './types';
-import { getItems, saveItems } from './services/itemService';
-import { SAMPLE_ITEMS } from './constants';
-import Header from './components/Header';
-import FilterControls from './components/FilterControls';
-import ItemCard from './components/ItemCard';
-import ItemListItem from './components/ItemListItem';
-import Modal from './components/Modal';
-import AddItemForm from './components/AddItemForm';
+import { Item, Filters, SortBy, ItemType, ItemShape } from './types.ts';
+import { getItems, saveItems } from './services/itemService.ts';
+import { SAMPLE_ITEMS } from './constants.ts';
+import Header from './components/Header.tsx';
+import FilterControls from './components/FilterControls.tsx';
+import ItemCard from './components/ItemCard.tsx';
+import ItemListItem from './components/ItemListItem.tsx';
+import Modal from './components/Modal.tsx';
+import AddItemForm from './components/AddItemForm.tsx';
 
 const App: React.FC = () => {
   const [items, setItems] = useState<Item[]>([]);

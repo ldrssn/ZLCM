@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Item, ItemType } from '../types';
-import { COLOR_MAP } from '../constants';
+import { Item, ItemType } from '../types.ts';
+import { COLOR_MAP } from '../constants.ts';
 
 interface ItemCardProps {
   item: Item;

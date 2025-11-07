@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Filters, ItemType, ItemShape, SortBy } from '../types';
-import { COLORS, COLOR_MAP } from '../constants';
+import { Filters, ItemType, ItemShape, SortBy } from '../types.ts';
+import { COLORS, COLOR_MAP } from '../constants.ts';
 
 interface FilterControlsProps {
   filters: Filters;
@@ -136,7 +136,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({ filters, setFilters, so
             </button>
             <button onClick={() => setViewMode('list')} className={`p-2 rounded-md transition-colors ${viewMode === 'list' ? 'bg-brand-pink text-brand-text' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`} aria-label="Listen-Ansicht">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z" clipRule="evenodd" />
+                    <path fillRule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 01-.75-.75z" clipRule="evenodd" />
                 </svg>
             </button>
         </div>

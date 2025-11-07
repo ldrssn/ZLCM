@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Item, ItemType } from '../types';
-import { COLOR_MAP } from '../constants';
+import { Item, ItemType } from '../types.ts';
+import { COLOR_MAP } from '../constants.ts';
 
 interface ItemListItemProps {
   item: Item;

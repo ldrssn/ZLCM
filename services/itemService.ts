@@ -1,5 +1,5 @@
-import { Item } from '../types';
-import { SAMPLE_ITEMS } from '../constants';
+import { Item } from '../types.ts';
+import { SAMPLE_ITEMS } from '../constants.ts';
 
 const OLD_STORAGE_KEY = 'zoueLuCollection';
 const STORAGE_KEY = 'ZoeLuCollection';

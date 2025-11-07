@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Item, ItemType, ItemShape } from '../types';
-import { COLORS } from '../constants';
-import { generateUUID } from '../services/utils';
+import { Item, ItemType, ItemShape } from '../types.ts';
+import { COLORS } from '../constants.ts';
+import { generateUUID } from '../services/utils.ts';
 
 interface ItemFormProps {
   onAddItem: (item: Item) => void;

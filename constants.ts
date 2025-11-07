@@ -1,4 +1,4 @@
-import { Item, ItemType, ItemShape } from './types';
+import { Item, ItemType, ItemShape } from './types.ts';
 
 export const COLORS = [
   'Rot', 'Grün', 'Blau', 'Gelb', 'Orange', 'Lila', 'Pink',
