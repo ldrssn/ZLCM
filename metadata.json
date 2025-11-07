@@ -1,0 +1,5 @@
+{
+  "name": "ZoéLu Collection Manager",
+  "description": "A web application to document, filter, and sort a personal collection of Zoué Lu bag flaps, handles, and bodies. It features flippable cards for details, local storage persistence, and the ability to add and manage items.",
+  "requestFramePermissions": []
+}
